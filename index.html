@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <script src="https://kit.fontawesome.com/ca767f7de3.js" crossorigin="anonymous"></script>
+    </body>
+    <title>Translit</title>
+</head>
+<body>
+    <h1 class="title">T.R.A.N.S.L.I.T.</h1>
+    <form id="js-form" class="form__input">
+        <input 
+            type="text" 
+            id="js-text-input"
+            class="form__input"
+            placeholder="Начните вводить текст"
+            >
+        <button>Добавить</button>
+    </form>
+    <ol class="results" id="js-results">
+        <li class="results__element">
+            <div class="results__element__input">Привет</div>
+            <div class="results__element__output">Privet</div>
+            <i class="fa-solid fa-circle-xmark"></i>
+        </li>
+        <li class="results__element">
+            <div class="results__element__input">Мир</div>
+            <div class="results__element__output">Mir</div>
+            <i class="fa-solid fa-circle-xmark"></i>
+        </li>
+        <li class="results__element">
+            <div class="results__element__input">Нео</div>
+            <div class="results__element__output">Neo</div>
+            <i class="fa-solid fa-circle-xmark"></i>
+        </li>
+    </ol>
+    <button class="clear-btn" id="js-clear-btn"><i class="fa-solid fa-circle-xmark"></i> Очистить всё</button>
+</html>
