@@ -1,0 +1,11 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.title {
+    color: #4520AB;
+    text-align: center;
+    font-size: 2.25rem;
+}
