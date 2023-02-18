@@ -5,9 +5,17 @@
 }
 
 body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-container {
     display: flex;
     flex-direction: column;
-    gap: 3.125rem;;
+    gap: 3.125rem;
+    ;
 }
 
 .title {
